@@ -1,0 +1,71 @@
+Arguments: 
+  /Users/sherazinvozone/.nvm/versions/node/v10.19.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/sherazinvozone/google-cloud-sdk/bin:/Users/sherazinvozone/work/vcpkg:/Users/sherazinvozone/composer:/Users/sherazinvozone/platform-tools:/Users/sherazinvozone/flutter/bin:/Users/sherazinvozone/.nvm/versions/node/v10.19.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/sherazinvozone/work/samina-zafar/package.json: Unexpected token } in JSON at position 1049
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "samina-zafar",
+    "version": "1.0.0",
+    "description": "Samina Zafar Dental Foundation",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@prisma/cli": "^2.12.1",
+      "@types/node": "^14.14.10",
+      "@types/react": "^17.0.0",
+      "@typescript-eslint/eslint-plugin": "^4.9.0",
+      "@typescript-eslint/parser": "^4.9.0",
+      "eslint": "^7.15.0",
+      "eslint-config-google": "^0.14.0",
+      "eslint-plugin-react": "^7.21.5",
+      "ts-node": "^9.1.0",
+      "typescript": "^4.1.2"
+    },
+    "dependencies": {
+      "@prisma/client": "^2.12.1",
+      "autoprefixer": "^10.0.4",
+      "next": "^10.0.3",
+      "postcss": "^8.1.14",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-markdown": "^5.0.0",
+      "tailwindcss": "^2.0.1",
+      "@headlessui/react": "^0.2.0",
+      "copy-text-to-clipboard": "^2.2.0",
+      "moment": "^2.29.1",
+      "next-on-netlify": "^2.5.1",
+      "sanitize-html": "^2.1.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
