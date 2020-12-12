@@ -11,16 +11,16 @@ module.exports = {
         '200': '50rem'
       },
       screens: {
-        '2xl': '1560px',
+        '2xl': '1560px'
       },
       maxHeight: {
         '32': '8rem',
         '64': '16rem',
         '100': '25rem',
-        '120': '30rem',
+        '120': '30rem'
       },
       maxWidth: {
-        'xss': '16rem',
+        xss: '16rem',
         '100': '25rem',
         '160': '40rem'
       },
@@ -30,8 +30,8 @@ module.exports = {
       zIndex: {
         '100': 100
       }
-    },
+    }
   },
   variants: {},
-  plugins: [],
-}
+  plugins: []
+};

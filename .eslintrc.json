@@ -45,6 +45,7 @@
       "@typescript-eslint/no-this-alias": [
         "off"
       ],
+      "react/react-in-jsx-scope": "off",
       "import/extensions": "off",
       "import/no-cycle": "off",
       "new-cap": "off",
@@ -77,6 +78,7 @@
       "@typescript-eslint/no-empty-function": "off",
       "@typescript-eslint/no-unused-vars": "off",
       "react/state-in-constructor": "off",
+      "no-use-before-define": "off",
       "react/jsx-no-bind": "off",
       "import/no-extraneous-dependencies": "off",
       "react/static-property-placement": "off",

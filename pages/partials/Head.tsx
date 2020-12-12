@@ -1,4 +1,5 @@
-import Head from "next/head";
+/* eslint-disable react/react-in-jsx-scope */
+import Head from 'next/head';
 
 const SZHead: React.FC<{
   darkLogo?: string;
@@ -19,7 +20,7 @@ const SZHead: React.FC<{
     />
     <meta
       property="og:image"
-      content={darkLogo || "https://column.us/og-image.png?bust_cache=true"}
+      content={darkLogo || 'https://column.us/og-image.png?bust_cache=true'}
     />
 
     {/* Twitter */}
@@ -32,7 +33,7 @@ const SZHead: React.FC<{
     />
     <meta
       property="twitter:image"
-      content={darkLogo || "https://column.us/og-image.png?bust_cache=true"}
+      content={darkLogo || 'https://column.us/og-image.png?bust_cache=true'}
     />
     <meta property="twitter:image:alt" content="Column logo" />
 

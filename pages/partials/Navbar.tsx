@@ -1,5 +1,7 @@
-import React from "react";
+import React from 'react';
 
-const Navbar: React.FC<any> = () => <div></div>;
+const Navbar: React.FC<any> = () => {
+  return <nav></nav>;
+};
 
 export default Navbar;
