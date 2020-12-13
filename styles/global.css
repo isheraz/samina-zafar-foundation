@@ -22,3 +22,4 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import 'node_modules/react-big-calendar/lib/sass/styles'; */

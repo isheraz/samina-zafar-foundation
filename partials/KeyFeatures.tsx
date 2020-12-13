@@ -1,13 +1,12 @@
 import React from 'react';
 
-// import { FoodIcon, SpeakerIcon, TeethIcon } from '../icons';
-import CharityIcon from '../icons/charity.svg';
+// import { FoodIcon, SpeakerIcon, TeethIcon, CharityIcon } from '../icons';
 
-type KeyFeaturesProps = Record<string, unknown>;
+type KeyFeaturesProps = any;
 
-const KeyFeatures: React.FC<KeyFeaturesProps> = () => {
+const KeyFeatures: React.FC<KeyFeaturesProps> = ({ id }) => {
   return (
-    <div className="bg-gray-50 overflow-hidden">
+    <div className="bg-gray-50 overflow-hidden" id={id}>
       <div className="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <svg
           className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
@@ -42,7 +41,7 @@ const KeyFeatures: React.FC<KeyFeaturesProps> = () => {
             fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
           />
         </svg>
-        <CharityIcon className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4" />
+        {/* <CharityIcon className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4" /> */}
         <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div className="lg:col-span-1">
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">

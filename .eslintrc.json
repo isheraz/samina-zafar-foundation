@@ -71,6 +71,7 @@
       "react/jsx-wrap-multilines": "off",
       "react/jsx-indent": "off",
       "react/jsx-filename-extension": "off",
+      "jsx-a11y/label-has-associated-control": "off",
       "class-methods-use-this": "off",
       "react/jsx-props-no-spreading": "off",
       "no-continue": "off",
