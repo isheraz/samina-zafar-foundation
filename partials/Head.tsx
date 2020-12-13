@@ -14,14 +14,8 @@ const SZHead: React.FC<{
     <meta property="og:type" content="website" />
     <meta property="og:url" content={origin} />
     <meta property="og:title" content={title} />
-    <meta
-      property="og:description"
-      content="Find information relevant to you and your community."
-    />
-    <meta
-      property="og:image"
-      content={darkLogo || 'https://column.us/og-image.png?bust_cache=true'}
-    />
+    <meta property="og:description" content="Give Charity to your community." />
+    <meta property="og:image" content={darkLogo} />
 
     {/* Twitter */}
     <meta property="twitter:card" content="summary_large_image" />
@@ -29,12 +23,9 @@ const SZHead: React.FC<{
     <meta property="twitter:title" content="Column" />
     <meta
       property="twitter:description"
-      content="Find information relevant to you and your community."
+      content="Give Charity to your community."
     />
-    <meta
-      property="twitter:image"
-      content={darkLogo || 'https://column.us/og-image.png?bust_cache=true'}
-    />
+    <meta property="twitter:image" content={darkLogo} />
     <meta property="twitter:image:alt" content="Column logo" />
 
     {/* Favicons */}
