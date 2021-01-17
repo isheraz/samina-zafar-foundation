@@ -1,5 +1,6 @@
-/* eslint-disable react/react-in-jsx-scope */
 import Head from 'next/head';
+
+const env = process.env.ASSET_PREFIX;
 
 const SZHead: React.FC<{
   darkLogo?: string;
@@ -8,7 +9,7 @@ const SZHead: React.FC<{
 }> = ({ darkLogo, origin, title }) => (
   <Head>
     <title>{title}</title>
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href={`${env}/icons/charity.svg`} />
 
     {/* Facebook */}
     <meta property="og:type" content="website" />

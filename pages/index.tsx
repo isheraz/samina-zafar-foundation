@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head, Header, HeroArea, KeyFeatures, Footer } from '../partials';
+import { Head, Header, HeroArea, KeyFeatures, Team, Footer } from '../partials';
 
 const App: React.FC<any> = () => {
   return (
@@ -8,6 +8,7 @@ const App: React.FC<any> = () => {
       <div className="min-h-screen bg-gray-100">
         <Header />
         <HeroArea />
+        <Team />
         <KeyFeatures id="vision" />
       </div>
       <Footer />

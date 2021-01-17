@@ -3,7 +3,7 @@
 /* eslint-disable import/newline-after-import */
 const withImages = require('next-images');
 
-const isProd = (process.env.NODE_ENV || 'production') === 'production';
+const isProd = process.env.NODE_ENV === 'production';
 
 const exportPathMap = () => {
   return {
@@ -19,6 +19,10 @@ const webpack = config => {
       'process.env.ASSET_PREFIX': JSON.stringify(assetPrefix)
     })
   );
+  config.module.rules.push({
+    test: /\.svg$/,
+    use: ['@svgr/webpack']
+  });
 
   return config;
 };

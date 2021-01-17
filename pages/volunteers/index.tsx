@@ -36,7 +36,7 @@ const App: React.FC<any> = () => {
                           name="first_name"
                           id="first_name"
                           autoComplete="given-name"
-                          className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                          className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
 
@@ -52,7 +52,7 @@ const App: React.FC<any> = () => {
                           name="last_name"
                           id="last_name"
                           autoComplete="family-name"
-                          className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                          className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
 
@@ -68,7 +68,7 @@ const App: React.FC<any> = () => {
                           name="email_address"
                           id="email_address"
                           autoComplete="email"
-                          className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                          className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
 
@@ -83,7 +83,7 @@ const App: React.FC<any> = () => {
                           id="country"
                           name="country"
                           autoComplete="country"
-                          className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                          className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                         >
                           <option>United States</option>
                           <option>Canada</option>
@@ -103,7 +103,7 @@ const App: React.FC<any> = () => {
                           name="street_address"
                           id="street_address"
                           autoComplete="street-address"
-                          className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                          className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
 
@@ -118,7 +118,7 @@ const App: React.FC<any> = () => {
                           type="text"
                           name="city"
                           id="city"
-                          className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                          className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
 
@@ -133,7 +133,7 @@ const App: React.FC<any> = () => {
                           type="text"
                           name="state"
                           id="state"
-                          className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                          className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
 
@@ -149,7 +149,7 @@ const App: React.FC<any> = () => {
                           name="postal_code"
                           id="postal_code"
                           autoComplete="postal-code"
-                          className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                          className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
                     </div>
@@ -157,7 +157,7 @@ const App: React.FC<any> = () => {
                   <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
                     <button
                       type="submit"
-                      className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     >
                       Save
                     </button>

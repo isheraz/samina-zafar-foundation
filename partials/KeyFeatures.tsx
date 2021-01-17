@@ -68,7 +68,7 @@ const KeyFeatures: React.FC<KeyFeaturesProps> = ({ id }) => {
                 </svg>
               </div>
               <div className="mt-5">
-                <dt className="text-lg leading-6 font-medium text-gray-900">
+                <dt className="text-lg leading-6 font-medium text-gray-900 border-l-2 pl-2 border-yellow-800">
                   Support Families
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
@@ -97,7 +97,7 @@ const KeyFeatures: React.FC<KeyFeaturesProps> = ({ id }) => {
                 </svg>
               </div>
               <div className="mt-5">
-                <dt className="text-lg leading-6 font-medium text-gray-900">
+                <dt className="text-lg leading-6 font-medium text-gray-900 border-l-2 pl-2 border-blue-800">
                   Dental Camps
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
@@ -126,7 +126,7 @@ const KeyFeatures: React.FC<KeyFeaturesProps> = ({ id }) => {
                 </svg>
               </div>
               <div className="mt-5">
-                <dt className="text-lg leading-6 font-medium text-gray-900">
+                <dt className="text-lg leading-6 font-medium text-gray-900 border-l-2 pl-2 border-pink-800">
                   Ration Distrubutions
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
@@ -155,7 +155,7 @@ const KeyFeatures: React.FC<KeyFeaturesProps> = ({ id }) => {
                 </svg>
               </div>
               <div className="mt-5">
-                <dt className="text-lg leading-6 font-medium text-gray-900">
+                <dt className="text-lg leading-6 font-medium text-gray-900 border-l-2 pl-2 border-green-800">
                   Awareness Campaigns
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
